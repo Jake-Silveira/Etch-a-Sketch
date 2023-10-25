@@ -52,7 +52,11 @@ function randomColor(gridItemi){
 };
 
 
-
+resetBtn.addEventListener('click', () =>  {
+    for(let i = 0; i < gridItem.length; i++) {
+        gridItem[i].style.backgroundColor = 'black';
+    };
+});
 
 
 
